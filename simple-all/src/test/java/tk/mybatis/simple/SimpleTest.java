@@ -57,7 +57,7 @@ public class SimpleTest {
         dataSource.setDriver("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://192.168.56.6:3306/mybatis");
         dataSource.setUsername("root");
-        dataSource.setPassword("");
+        dataSource.setPassword("1");
 
         //创建 JDBC 事务
         Transaction transaction = new JdbcTransaction(dataSource, null, false);
